@@ -104,11 +104,11 @@ Using these semantic tags helps improve the accessibility and SEO of your web pa
 # Some Best `Emmet sortcuts` for VsCode.
 1.
 ```html
-div.main>nav>div.main-nav.flex>a.company-logo[href="#"]{Neil Oscar}+div.nav-links>ul.flex>li*6>a.hover-links-$[href="#"]{nav-$}
+div.main>nav>div.main-nav.flex>a.company-logo+div.nav-links>ul.flex>li*6>a.hover-links
 ```
 
 2.
 ```html
-div.main>nav>div.main-nav.flex>a.company-logo+div.nav-links>ul.flex>li*6>a.hover-links
+div.main>nav>div.main-nav.flex>a.company-logo[href="#"]{Neil Oscar}+div.nav-links>ul.flex>li*6>a.hover-links-$[href="#"]{nav-$}
 ```
 
