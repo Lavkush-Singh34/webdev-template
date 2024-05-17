@@ -100,3 +100,15 @@ Semantic HTML tags provide meaning to the content they enclose, making it easier
     ```
 
 Using these semantic tags helps improve the accessibility and SEO of your web pages, ensuring they are easier to understand for both users and machines.
+---
+# Some Best `Emmet sortcuts` for VsCode.
+1.
+```html
+div.main>nav>div.main-nav.flex>a.company-logo[href="#"]{Neil Oscar}+div.nav-links>ul.flex>li*6>a.hover-links-$[href="#"]{nav-$}
+```
+
+2.
+```html
+div.main>nav>div.main-nav.flex>a.company-logo+div.nav-links>ul.flex>li*6>a.hover-links
+```
+
